@@ -44,13 +44,13 @@ adminlist:
 
 # ForceIP configuration
 forceip:
-  enabled: false
+  enabled: true
 
   # The port players should use to connect to your server; only applies to forceip
   port: 25565
 
   # The kick message sent to players when logging in with the wrong hostname
-  kickmsg: You have been kicked from the server - Please connect using %address%
+  kickmsg: You have been kicked from the server, my friend. - Please connect using %address%
 
 
 # Blocking certain events
@@ -101,8 +101,8 @@ blocked_commands:
   # Disabled commands
   - 'n:b:/time:Server-side time changing is disabled. Please use /ptime to set your own personal time.'
   - 'n:b:/gamemode:Use /creative and /survival to set your gamemode.'
-  - 'n:b:/ban:_'
-  - 'n:b:/pardon:_'
+  - 'n:b:/ban:_': (For admins) Please use /GTFO instead
+  - 'n:b:/pardon:_': (For admins) Please use /glist unban <player> instead
   - 'n:b:/ban-ip:_'
   - 'n:b:/pardon-ip:_'
   - 'n:b:/toggledownfall:_'

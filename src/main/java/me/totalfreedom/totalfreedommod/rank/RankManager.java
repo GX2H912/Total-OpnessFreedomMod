@@ -68,6 +68,12 @@ public class RankManager extends FreedomService
         {
             return Title.OWNER;
         }
+        
+        // Fionn's wanted ranks (added by MANDAR)
+        if (MainConfig.get(ConfigEntry.SERVER_LEADEXECUTIVE, List.class).contains(player.getName())) 
+        {
+            return Title.LEADEXECUTIVE;
+        }
 
         return rank;
     }

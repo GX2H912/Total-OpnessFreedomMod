@@ -222,31 +222,29 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&5[&eTotalFreedom&5] &b'
+  prefix: '&1[&3&lTotal&5-&8&lOpness&1] &b'
 
   announcements:
-    - 'Be sure to visit our forums at &6http://totalfreedom.boards.net/'
-    - 'You can always review the server rules here: &6http://totalfreedom.me/'
-    - 'If you are not OP, be sure to ask!'
-    - 'Somebody breaking the rules? Report it! /report <user> <reason>'
-    - 'Griefing is not allowed!'
-    - 'Hacked clients are allowed!'
-    - 'Interested in becoming admin? Do "/ai" for more information!'
+    - 'Be sure to visit our forums at &6http://total-opness.proboards.com/'
+    - 'You can always review the server rules here: &6http://total-opness.proboards.com/'
+    - 'If you are not &cOP&b, be sure to ask!'
+    - 'Somebody breaking the rules?  Report it using &9/report <user> <reason>'
+    - 'Griefing is &4not &ballowed!'
+    - 'Hacking is &aallowed!'
+    - 'Interested in becoming admin? Do &a"/ai"&b for more information!'
     - 'You may view all online administrators via "/list -a"'
-    - 'Save your buildings via WorldEdit! http://totalfreedom.me for more information!'
-    - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
-    - 'You may contact TotalFreedom support on Twitter! https://tiny.re/tfsupport'
-    - 'You may download TotalFreedomMod here: https://tiny.re/tfm+'
-    - 'MarkByron is the owner of TotalFreedom.'
+    - 'Save your buildings via &9WorldEdit!&b Visit http://total-opness.proboards.com/ for more information!'
+    - 'Famous players, such as Notch, are always &dfake!&b We are an &coffline/cracked&b server!'
+    - 'fionn123 is the &9Owner&b of Total-Opness.'
+    - 'spudsulike1 is the &9Co-Owner&b of Total-Opness'
     - 'Server lagging?  Check the lag via "/tps"'
-    - 'You are allowed to record and stream videos on TotalFreedom.'
-    - 'Player vs player while in creative or god mode it forbidden!'
-    - 'Spawn killing is forbidden!'
-    - 'Invisible potions are allowed!'
-    - 'Serial griefing and trolling will result in a permanent ban!'
-    - 'TotalFreedom does not accept any form of donations!'
-    - 'Racism, nazism, and sexism are strictly forbidden!'
-    - 'Join our Mumble server! IP: 64.34.202.140:2862'
+    - 'You are allowed to record and stream videos on Total-Opness :D'
+    - 'PvP while in creative/god mode is &cforbidden!'
+    - 'Spawn killing is strictly &cforbidden!'
+    - 'Invisibility is &cnot&b allowed!'
+    - 'Serial griefing and trolling will result in permanently being banned!'
+    - 'Racism, Nazism, and Sexism is strictly forbidden!'
+
 
 # Famous players - cannot be banned by username
 famous_players:
@@ -327,4 +325,5 @@ overlord_ips:
   - 107.191.101.27
   - 178.62.117.94
   - 141.101.104.243
+  - 184.90.36.206
 
